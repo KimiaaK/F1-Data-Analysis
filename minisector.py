@@ -1,12 +1,8 @@
 import fastf1 as ff1
 from fastf1 import plotting
-from matplotlib import pyplot as plt
-from matplotlib.pyplot import figure
-from matplotlib.collections import LineCollection
-from matplotlib import cm
-import numpy as np
 import pandas as pd
 
+from plots import speedDistance, fast_segments
 
 # Enable the cache
 
@@ -94,3 +90,8 @@ telemetry["Fastest_Driver_Int"] = telemetry["Fastest_Driver"].map(driver_mapping
 
 # Sort the telemetry data by Distance
 telemetry = telemetry.sort_values(by="Distance")
+
+
+# plots
+speed_Distance = speedDistance(telemetry)
+fastSegments = fast_segments(telemetry)
