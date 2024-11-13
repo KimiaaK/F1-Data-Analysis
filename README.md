@@ -1,11 +1,9 @@
 # F1 Minisector Analysis with Fast-F1 and Matplotlib
-##Before you start...
 
-[91mThis project was completed in November 2024 and is based on the latest features and commands in the Fast-F1 library. Older projects available online may follow outdated commands and might not work as expected. Before using such projects, review the Fast-F1 documentation to make any necessary updates.[0m
-
+<span style="color: red;">This project was conducted in November 2024 and is based on the latest features and commands in the Fast-F1 library. Older projects available online may follow outdated commands and might not work as expected. Before using such projects, review the Fast-F1 documentation to make any necessary adjustments.</span>
 
 ## Overview
-This project is designed to analyze telemetry data from a Formula 1 "race session" and visualize the performance of two drivers across the track in the British GP 2024. We compare the speed of Max Verstappen ("VER") and Lewis Hamilton ("HAM") in different sections of the track (minisectors) to determine who is faster in each part. This analysis uses the Fast-F1 library, along with `matplotlib` for visualization.
+This project is designed to analyze telemetry data from a Formula 1 race session and visualize the performance of two drivers across the track. We compare the speed of Max Verstappen ("VER") and Lewis Hamilton ("HAM") in different sections of the track (minisectors) to determine who is faster in each part. This analysis uses the Fast-F1 library, along with `matplotlib` for visualization.
 
 The script processes telemetry data and divides the track into equally sized segments called "minisectors." We then determine which driver was fastest in each minisector, creating a color-coded visualization to show the fastest driver for each segment.
 
