@@ -15,7 +15,15 @@ To run this code, you need to install the following Python packages:
 
 To install these dependencies, you can use the following command:
 ```sh
-pip install fastf1 matplotlib numpy pandas
+pip install -r requirements.txt
+```
+
+Ensure that you have a `requirements.txt` file with the following content:
+```txt
+fastf1
+matplotlib
+numpy
+pandas
 ```
 
 ## Step-by-Step Explanation
