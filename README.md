@@ -1,6 +1,7 @@
 # F1 Minisector Analysis with Fast-F1 and Matplotlib
 
-##Before you start...
+
+## Before you start...
 
 <span style="color: red;">
 This project was conducted in November 2024 and is based on the latest features and commands in the Fast-F1 library. Older projects available online may follow outdated commands and might not work as expected. Before using such projects, review the Fast-F1 documentation to make any necessary adjustments.
