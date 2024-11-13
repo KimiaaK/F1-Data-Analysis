@@ -10,6 +10,14 @@ This project was conducted in November 2024 and is based on the latest features 
 ## Overview
 This project is designed to analyze telemetry data from a Formula 1 race session and visualize the performance of two drivers across the track. We compare the speed of Max Verstappen ("VER") and Lewis Hamilton ("HAM") in different sections of the track (minisectors) to determine who is faster in each part. This analysis uses the Fast-F1 library, along with `matplotlib` for visualization.
 
+
+<div style="display: flex; justify-content: space-between;">
+  <img src="silverstone-minisector-images/fastest-sectors.png" alt="Speed by Distance" style="width: 48%; margin-right: 2%;" />
+  <img src="silverstone-minisector-images/spped-by-distance.png" alt="Track Visualization" style="width: 48%;" />
+</div>
+
+
+
 The script processes telemetry data and divides the track into equally sized segments called "minisectors." We then determine which driver was fastest in each minisector, creating a color-coded visualization to show the fastest driver for each segment.
 
 ## Prerequisites
